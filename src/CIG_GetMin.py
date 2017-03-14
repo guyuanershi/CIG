@@ -1,11 +1,3 @@
-import os
-
-
-def show():
-    parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    print(parentdir)
-
-
 stack = []
 minStack = []
 
