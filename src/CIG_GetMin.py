@@ -8,16 +8,14 @@ def pop():
 
 
 def push(data):
+    stack.append(data)
+
     if len(minStack) == 0:
         minStack.append(data)
     else:
-        temp = minStack.pop()
-        minStack.append(temp)
-        if temp > data:
-            minStack.append(data)
-        else:
-            minStack.append(temp)
-    stack.append(data)
+        propData = minStack[len(minStack) - 1]
+        propData = data if propData > data else propData
+        minStack.append(propData)
 
 
 def clear():
