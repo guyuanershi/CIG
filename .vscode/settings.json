@@ -5,6 +5,13 @@
     "python.formatting.formatOnSave": true,
 
     "python.unitTest.nosetestPath": "C:/Python27/Scripts/nosetests.exe",
-    "python.unitTest.nosetestsEnabled": true
+    "python.unitTest.nosetestsEnabled": true,
 
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    }
 }

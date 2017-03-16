@@ -1,6 +1,6 @@
 from nose.tools import eq_
 from nose.tools import with_setup
-from src.CIG_GetMin import (push, pop, getMin, clear)
+from src.Stack_Queue.CIG_GetMin import (push, pop, getMin, clear)
 
 
 def setup_func():
